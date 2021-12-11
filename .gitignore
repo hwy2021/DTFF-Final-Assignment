@@ -1,0 +1,18 @@
+# LaTeX temp files
+*.aux
+*.log
+*.gz
+*.swp
+*.bbl
+*.blg
+*.bcf
+*.fls
+*.run.xml
+*.fdb_latexmk
+*.nav
+*.out
+*.snm
+*.toc
+
+# MacOS files
+.DS_Store

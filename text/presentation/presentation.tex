@@ -9,6 +9,11 @@
 \pgfplotsset{compat=1.17}
 \usepgfplotslibrary{colorbrewer}
 \usepackage{collcell}
+\usepackage[latin1]{inputenc}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{pgfpages}
+\usepackage{graphicx}
 
  %The min, mid and max values
 \newcommand*{\MinNumber}{-20}%
@@ -31,14 +36,22 @@
 \renewcommand{\arraystretch}{0}
 \setlength{\fboxsep}{12pt} % box size
 \setlength{\tabcolsep}{0pt}
-% \usetheme{default}
 
+
+\mode<presentation> {
+  \usetheme{Warsaw}
+  \setbeamercovered{transparent}
+  
+}
+
+\pgfdeclareimage[height=0.7cm]{le-logo}{UZH-logo}
+\logo{\pgfuseimage{le-logo}}
+\setbeamertemplate{footline}[frame number]
 \title{Final Exercise -- Beamer}
-\author{Wenying Huang}
+\author{Wenying Huang \and Shujun Wang \and Simon Williamn}
 \institute{University of Zurich}
 \date{\today}
 
-\usepackage{graphicx}
 
 \setbeamertemplate{caption}[numbered]
 \setbeamertemplate{theorems}[numbered]
@@ -47,18 +60,21 @@
 
 % ========================
 
-\frame{\titlepage}
 
-% ========================
-
-\begin{frame}{Table of Contents}
-    \framesubtitle{Table of Contents}
-    \tableofcontents
+\begin{frame}
+  \titlepage
 \end{frame}
 
+\begin{frame}{Table of Contents}
+  \tableofcontents
+\end{frame}
+
+\section{Table}
+
 % ========================
 
-\section{Table with DColumn}
+\subsection{Table with DColumn}
+
 \begin{frame}
 \frametitle{Table Page}
 \framesubtitle{An Example Table with DColumn}
@@ -82,7 +98,7 @@
 
 % ========================
 
-\section{Table with Heatmap}
+\subsection{Table with Heatmap}
 \begin{frame}
 \frametitle{Another Table Page}
 \framesubtitle{An Example Table with Heatmap}
@@ -101,7 +117,8 @@
 \end{frame}
 % ========================
 
-\section{Figure with Color Palette}
+\section{Figure}
+\subsection{Figure with Color Palette}
 \begin{frame}
 \frametitle{Figure Page}
 \framesubtitle{An Example Figure with Color Palette}
@@ -124,7 +141,7 @@
 
 % ========================
 
-\section{Figure with Two Panels}
+\subsection{Figure with Two Panels}
 \begin{frame}
 \frametitle{Another Figure Page}
 \framesubtitle{An Example Figure with two panels}

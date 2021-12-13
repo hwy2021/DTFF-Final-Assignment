@@ -18,7 +18,7 @@ This repository is for the final assignment of *21HS DFOEC008 Digital Tools for 
 > ...where figures adhere to the visualization standards discussed in the corresponding lectures;
 
 - Paper is under [paper](paper). 
-- Beamer is under [text/presentation](text/presentation). 
+- Beamer is under [presentation](presentation). 
 
 > (optional) with one interactive app or jupyter Notebook presenting some findings (or some meaningless data, e.g. the histogram of Laplace distribution).
 

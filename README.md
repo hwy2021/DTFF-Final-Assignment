@@ -2,9 +2,9 @@
 This repository is for the final assignment of *21HS DFOEC008 Digital Tools for Finance (L)* taught by Dr. Igor Pozdeev in the University of Zurich, which is based on the repository [digital-tools-for-finance](https://github.com/ipozdeev/digital-tools-for-finance).
 
 ## Authors
-- Shujun Wang: 19-772-250
 - Simon Willimann: 14-937-494
 - Wenying Huang: 18-751-792
+- Shujun Wang: 19-772-250
 
 ## Contents
 > boasting a database with an API and possibility to update data;

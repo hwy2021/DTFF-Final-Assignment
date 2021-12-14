@@ -9,7 +9,7 @@ This repository is for the final assignment of *21HS DFOEC008 Digital Tools for 
 ## Contents
 > boasting a database with an API and possibility to update data;
 
-- Database is under 
+- Database is under [database](database).
 
 > featuring a paper (does not have to be of meaningful content) written in LaTeX, with sections, a table of contents, tables and figures;
 > 

@@ -1,3 +1,6 @@
+The sql file is the workbench export.
+
+
 Disclaimer
 
 We were able to set up the MySQL database, 
